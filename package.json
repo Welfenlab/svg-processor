@@ -1,6 +1,6 @@
 {
   "name": "@more-markdown/svg-processor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin for more-markdown to support rendering svg files.",
   "main": "lib/svg_processor.js",
   "dependencies": {
