@@ -9,7 +9,7 @@ gulp.task("bundle", function(){
   bundler = browserify('./src/svg_processor.coffee',
     {
       transform: ['coffeeify'],
-      standalone: 'dotProcessor',
+      standalone: 'svgProcessor',
       extensions: ['.coffee'],
       debug: false
     });
